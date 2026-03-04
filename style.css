@@ -1,0 +1,144 @@
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#e3f2fd,#ffffff);
+margin:0;
+padding:0;
+}
+
+section,header{
+width:85%;
+margin:30px auto;
+}
+
+header{
+text-align:center;
+}
+
+header h1{
+font-size:40px;
+color:#1a237e;
+}
+
+header p{
+color:#555;
+}
+
+.event-info table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+.event-info td{
+padding:12px;
+border-bottom:1px solid #eee;
+}
+
+.event-info tr:nth-child(even){
+background:#f5f5f5;
+}
+
+.form-container{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+fieldset{
+margin-bottom:20px;
+padding:20px;
+border:1px solid #ddd;
+border-radius:8px;
+}
+
+legend{
+background:#1a237e;
+color:white;
+padding:5px 15px;
+border-radius:20px;
+}
+
+label{
+display:block;
+margin-top:10px;
+}
+
+input,select,textarea{
+width:100%;
+padding:10px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.inline{
+margin-top:10px;
+}
+
+.inline input{
+width:auto;
+margin-right:10px;
+}
+
+input:focus,select:focus,textarea:focus{
+border-color:#1a237e;
+outline:none;
+}
+
+.buttons{
+text-align:center;
+margin-top:20px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:25px;
+cursor:pointer;
+margin:5px;
+}
+
+button[type="submit"]{
+background:#1a237e;
+color:white;
+}
+
+button[type="reset"]{
+background:#c62828;
+color:white;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+.participants table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+.participants th,
+.participants td{
+border:1px solid #eee;
+padding:10px;
+text-align:center;
+}
+
+.participants th{
+background:#1a237e;
+color:white;
+}
+
+.participants tr:nth-child(even){
+background:#f5f5f5;
+}
+
+footer{
+background:#1a237e;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
